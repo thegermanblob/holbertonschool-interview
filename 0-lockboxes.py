@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" un metodo para abrir todas las cajas """
 
 def canUnlockAll(boxes):
     """ checks if all boxes can be opened """
