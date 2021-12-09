@@ -6,7 +6,7 @@ def canUnlockAll(boxes):
     keys = [0]
     for key in keys:
         for n in boxes[key]:
-            if n not in keys:
+            if n not in keys and n < len(boxes):
                 keys.append(n)
     
     return len(keys) == len(boxes)
